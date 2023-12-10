@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://localhost:1313/posts"
 title = "Bweew"
 theme = "hugo-coder"
 languageCode = "en"

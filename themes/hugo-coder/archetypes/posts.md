@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = {{ .Date }}
 title = ""
 description = ""
@@ -8,5 +8,4 @@ authors = []
 tags = []
 categories = []
 externalLink = ""
-series = []
 +++
