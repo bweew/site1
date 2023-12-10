@@ -161,7 +161,7 @@ author = "authors"
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
-url = "https://myhugosite.com/index.xml"
+url = "https://bweew.github.io/site1/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
