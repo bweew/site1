@@ -1,8 +1,12 @@
 +++
 draft = false
-date = '2023-12-15 01:58:37'
-title = "frontmatter makerfor hugo in vim"
-tags = [vim, hugo]
+date = '2023-12-15 02:05:29'
+title = "FrontHugo"
+description = "frontmatter maker for hugo using vimscript"
+slug = "fronthugo"
+authors = []
+tags = []
+categories = []
 +++
 
 # Frontmatter maker
