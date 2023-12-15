@@ -7,7 +7,7 @@ slug = "fast-git"
 tags = [] 
 categories = []
 +++
-# simplifying version controll
+# simplifying version control
 git can be complicated.
 I made a little bash script to make life easier.
 it pulls, adds, commits, pushes.
