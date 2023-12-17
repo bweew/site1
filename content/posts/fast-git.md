@@ -46,3 +46,10 @@ add this to your .vimrc:
 command! -nargs=* Giggity :execute '!bash /Users/bweew/Documents/bash/giggity.sh' <args>
 ```
 then you can run the command :Giggity to push to git
+
+### changed for linux
+it worked fine on my mac made some updates to work on my linux mint computer
+
+```
+command! -nargs=* Giggity :execute '!/home/mint/Documents/bashscripts/giggity.sh' <args>
+```
