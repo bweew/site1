@@ -4,7 +4,7 @@ date = 2023-12-15 01:23:32
 title = "Giggity git: the fast git script"
 description = "a script to make a git a bit easier to deal with"
 slug = "fast-git"
-tags = [bash, hugo, vim] 
+tags = ["bash", "hugo", "vim"] 
 categories = []
 +++
 # simplifying version control
