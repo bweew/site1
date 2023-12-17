@@ -16,6 +16,7 @@ vim to the resue.
 nnoremap <leader>d i<C-R>=strftime('%Y-%m-%d %H:%M:%S')<CR><Esc>
 ```
 ### vim-hugo-helper
+Plug 'robertbasic/vim-hugo-helper'
 > its not great but its something
 - HugoHelperTitleToSlug
 - HugoHelperLink
