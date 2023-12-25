@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bweew</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content on Bweew</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Dec 2023 05:12:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo frontmatter youtube</title>
+      <link>http://localhost:1313/posts/posts/hugo-frontmatter-youtube/</link>
+      <pubDate>Mon, 25 Dec 2023 05:12:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/posts/hugo-frontmatter-youtube/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>FrontHugo</title>
+      <link>http://localhost:1313/posts/posts/fronthugo/</link>
+      <pubDate>Fri, 15 Dec 2023 02:05:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/posts/fronthugo/</guid>
+      <description>Frontmatter maker Link to heading some vimscript to make making hugo blogging easier. add this to your .vimrc then run it with leader f h (frontmatter hugo)
+&amp;#34; Function to insert Hugo front matter function! InsertHugoFrontMatter() let front_matter = &amp;#34;+++\n&amp;#34; let front_matter .= &amp;#34;draft = false\n&amp;#34; let front_matter .= &amp;#34;date = &amp;#39;&amp;#34; . strftime(&amp;#34;%Y-%m-%d %H:%M:%S&amp;#34;) . &amp;#34;&amp;#39;\n&amp;#34; let front_matter .= &amp;#34;title = \&amp;#34;\&amp;#34;\n&amp;#34; let front_matter .= &amp;#34;description = \&amp;#34;\&amp;#34;\n&amp;#34; let front_matter .</description>
+    </item>
+    
+    <item>
+      <title>Giggity git: the fast git script</title>
+      <link>http://localhost:1313/posts/posts/fast-git/</link>
+      <pubDate>Fri, 15 Dec 2023 01:23:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/posts/fast-git/</guid>
+      <description>simplifying version control Link to heading git can be complicated. I made a little bash script to make life easier. it pulls, adds, commits, pushes. the nice thing is it asks you for your commit message.
+always pull before pushing. always wipe from front to back. avoid those merge conflicts like the plague.
+add an alias to this to your .zshrc or .bashrc. i called mine giggity.sh of course dont forget to chmod +x it.</description>
+    </item>
+    
+    <item>
+      <title>Add Date For Hugo In Vim</title>
+      <link>http://localhost:1313/posts/posts/add-date-for-hugo-in-vim/</link>
+      <pubDate>Fri, 15 Dec 2023 01:05:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/posts/add-date-for-hugo-in-vim/</guid>
+      <description> Leader D Link to heading writing frontmatter sucks. vim to the resue.
+&amp;#34; Map &amp;lt;leader&amp;gt;d to insert the current date and time in &amp;#34;YYYY-MM-DD HH:MM:SS&amp;#34; format nnoremap &amp;lt;leader&amp;gt;d i&amp;lt;C-R&amp;gt;=strftime(&amp;#39;%Y-%m-%d %H:%M:%S&amp;#39;)&amp;lt;CR&amp;gt;&amp;lt;Esc&amp;gt; vim-hugo-helper Link to heading Plug &amp;lsquo;robertbasic/vim-hugo-helper&amp;rsquo;
+its not great but its something
+HugoHelperTitleToSlug HugoHelperLink HugoHelperDateIsNow HugoHelperUndraft HugoHelperDraft </description>
+    </item>
+    
+    <item>
+      <title>first blog post</title>
+      <link>http://localhost:1313/posts/posts/cliptools/</link>
+      <pubDate>Sat, 09 Dec 2023 20:50:53 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/posts/cliptools/</guid>
+      <description>3 killer things I learned today
+coder theme for hugo smartclips for frontmatter keybind to create txt file on mac making a new file Link to heading ive set ctrl-n to make a new file this is the applescript i used:
+set file_name to &amp;#34;untitled&amp;#34; set file_ext to &amp;#34;.txt&amp;#34; set is_desktop to false -- get folder path and if we are in desktop (no folder opened) try tell application &amp;#34;Finder&amp;#34; set this_folder to (folder of the front Finder window) as alias end tell on error -- no open folder windows set this_folder to path to desktop folder as alias set is_desktop to true end try -- get the new file name (do not override an already existing file) tell application &amp;#34;System Events&amp;#34; set file_list to get the name of every disk item of this_folder end tell set new_file to file_name &amp;amp; file_ext set x to 1 repeat if new_file is in file_list then set new_file to file_name &amp;amp; &amp;#34; &amp;#34; &amp;amp; x &amp;amp; file_ext set x to x + 1 else exit repeat end if end repeat -- create and select the new file tell application &amp;#34;Finder&amp;#34; activate the frontmatter Link to heading using cliptools to write frontmatter for hugo blog posts is amazing.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/posts/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/projects/</guid>
+      <description>web app to create soundfont files
+sfz gen
+Sites Link to heading ecksesontress - blog site2 weebly site</description>
+    </item>
+    
+  </channel>
+</rss>
