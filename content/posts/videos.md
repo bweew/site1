@@ -6,7 +6,5 @@ description = ""
 slug = "hugo-frontmatter-youtube"
 authors = []
 tags = []
-categories = []
-externalLink = ""
 +++
 {{< youtube id="j3KKbS5JnuA" title="spreadthelove" >}}
